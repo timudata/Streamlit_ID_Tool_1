@@ -7,8 +7,6 @@ import codecs
 # Components Pkgs
 import streamlit.components.v1 as components
 
-from win32api import GetSystemMetrics
-
 # st.set_page_config(layout="wide")
 prcnt_width = 100
 max_width_str = f"max-width: {prcnt_width}%;"
